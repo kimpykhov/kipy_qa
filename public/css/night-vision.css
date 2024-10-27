@@ -1,0 +1,23 @@
+/* Основные стили для сайта */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+} */
+
+
+
+/* Слой затемнения, по умолчанию невидим */
+#dark-mode-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0) 100px, rgba(0, 0, 0, 0.8) 250px, rgba(0, 0, 0, 0.95) 500px);
+    transition: background-position 0.05s ease;
+    z-index: 9999;
+    display: none; /* по умолчанию скрыт */
+}

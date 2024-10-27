@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim Pykhov Web-Page</title>
+    <link rel="stylesheet" href="../../public/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        .skills-chart-container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        canvas {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header id="header">
+        <nav class="navigation_wrapper">
+            <h2>
+                <a href="../pages/index.html">Home</a>
+                <a href="../pages/game.html">Game</a>
+                <a href="../pages/blog.html">Blog</a>
+                <a href="../pages/mock.html">Mock</a>
+            </h2>
+        </nav>
+        <div id="personalInfo">
+            <h1>Kim Pykhov Web-Page</h1>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/mr_morou/?igsh=MWthdW8yZHQ1N3pnag%3D%3D" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/kim-pykhov-0a2aa9196/" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/kimpykhov/saucedemo" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </header>
+
+    <!-- Welcome block-->
+    <section class="section-block" data-aos="fade-up">
+        <div class="welcome-block" >
+            <div class="grid-container" id="bodyContainer">
+                <p><img src="../../public/images/profile.png" alt="profile" class="image"></p>
+                <div class="text-content">
+                    <p>Heyo, I'm Kim Pykhov.</p>
+                    <p>QA Engineer with a wide expertise in testing, based in Lithuania, Vilnius.</p>
+                    <p>I had created this Web-Site, to show my skills with writing a code.</p>
+                    <p>Share my thoughts.</p>
+                    <p>And tell a bit about myself.</p>
+                    <form>
+                        <input type="button" value="Say Hello" class="styled-button"
+                            onclick="window.open('https://www.linkedin.com/in/kim-pykhov-0a2aa9196/', '_blank')">
+                    </form>
+                </div>
+        </div>
+    </section>    
+    </div>
+
+    <!-- about me section -->
+    <!-- поменять местами секции типа шамахты -->
+    <section class="about-me section-block" data-aos="fade-up">
+        <div class="text-section-title">
+            <p>About me</p>
+        </div>
+        <div class="grid-container">
+            <div class="image-container">
+                <img src="../../public/images/about_me.png" alt="About Me Image" class="image">
+            </div>
+            <div class="text-content">
+                <p>Here’s a simple way to describe me and what I live for:</p>
+                <ul>
+                    <li>I live for testing.</li>
+                    <li>I'm constantly improving myself.</li>
+                    <li>In my free time, I build Lego and train charisma skill.</li>
+                    <li>I'm not shy about accepting help from my cat.</li>
+                    <li>I'm know response to the question - To be or not to be</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience block -->
+    <section class="experience-block" data-aos="fade-up">
+        <div class="text-section-title">
+            <p>Work Experience</p>
+        </div>
+        <div class="grid">
+            <div class="box" onclick="openModal('modal-westru')">
+                <h1>WEST-RU</h1>
+                <p>Design Engineer</p>
+                <span>05.2013-06.2019</span>
+                <span class="click-hint">Click for more</span>
+            </div>
+            <div class="box" onclick="openModal('modal-cloudike')">
+                <h1>Cloudike</h1>
+                <p>Junior QA Engineer</p>
+                <span>06.2019-10.2020</span>
+                <span class="click-hint">Click for more</span>
+            </div>
+            <div class="box" onclick="openModal('modal-retailnext')">
+                <h1>RetailNext</h1>
+                <p>QA Engineer</p>
+                <span>10.2020-08.2021</span>
+                <span class="click-hint">Click for more</span>
+            </div>
+            <div class="box" onclick="openModal('modal-epam')">
+                <h1>EPAM</h1>
+                <p>Senior QA-Lead QA</p>
+                <span>08.2021-09.2023</span>
+                <span class="click-hint">Click for more</span>
+            </div>
+            <div class="box" onclick="openModal('modal-wargaming')">
+                <h1>WARGAMING</h1>
+                <p>Senior QA</p>
+                <span>09.2023-Present</span>
+                <span class="click-hint">Click for more</span>
+            </div>
+        </div>
+    </section>    
+    
+    <div id="modal-westru" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-westru')">&times;</span>
+                <ul>
+                    <li>Checking devices in CAD-CAM-CAE software (Robcad, Delmia, Process Simulate);</li>
+                    <li>Building and preparation of technological process;</li>
+                    <li>Writing programs for robots (Kuka, Fanuc, Abb);</li>
+                    <li>Regular Business trips to Germany, Czech Republic for work at plants;</li>
+                    <li>Regular reviews with customer;</li>
+                    <li>Managing and coordination of a team;</li>
+                </ul>
+        </div>
+    </div>
+
+    <div id="modal-cloudike" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-cloudike')">&times;</span>
+            <ul>
+                <li>Manual Testing:</li>
+                <ul>
+                    <li>Manual testing on Mobile (IOS, Android), WeB and desktop Clients.</li>
+                    <li>API testing</li>
+                    <li>Data-base testing;</li>
+                    <li>Preparation and maintenance of project documentation (Test suit forming, Test Cases, Bug Report, Checklist etc);</li>
+                    <li>Demo Sessions with a Customers;</li>
+                    <li>Automation. Simple scripts on Python;</li>
+                </ul>
+        </div>
+    </div>
+
+    <div id="modal-retailnext" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-retailnext')">&times;</span>
+            <ul>
+                <li>Manual Testing:</li>
+                <ul>
+                    <li>hardware + software testing.</li>
+                    <li>Manual testing of mobile and desktop applications</li>
+                    <li>Preparation and maintenance of project documentation (Test suit forming, Test Cases, Bug Report, Checklist etc);</li>
+                </ul>
+        </div>
+    </div>
+
+    <!-- Модальное окно для EPAM -->
+    <div id="modal-epam" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-epam')">&times;</span>
+            <ul>
+                <li>Manual Testing:</li>
+                <ul>
+                    <li>Various types of testing (functional, smoke, integration, regression, localization, usability, GUI, ad-hoc) using black and grey box approaches;</li>
+                    <li>Testing complex logical flows from scratch;</li>
+                    <li>Data-base testing;</li>
+                    <li>API testing;</li>
+                    <li>Preparation and maintenance of project documentation (Test suit forming, Test Cases, Bug Report, Checklist etc);</li>
+                </ul>
+                <li>Automation:</li>
+                <ul>
+                    <li>Working with automated tests (UI-side, BE-side);</li>
+                    <li>Utilizing automation tools (Cypress, Selenium, Selenide);</li>
+                    <li>Preparation of testing environments (via Jenkins) for the team;</li>
+                    <li>Adding automated tests to CI/CD;</li>
+                </ul>
+                <li>Leadership:</li>
+                <ul>
+                    <li>Forming of testing artifacts (Test Plan, Test Strategy);</li>
+                    <li>Performing the role of QA Team Lead (12 members in Team);</li>
+                    <li>Task allocation within the team;</li>
+                    <li>Responsible for team management (Knowledge sharing, Mentoring, 1:1 meetings);</li>
+                    <li>Release Management activities;</li>
+                    <li>Conducting Scrum Activities (Daily Standups, Retrospectives, Demos);</li>
+                    <li>Collecting and analyzing metrics for process improvement;</li>
+                    <li>Participation in Demo sessions with Customers, presenting test results;</li>
+                    <li>Responsibility for an integration testing and results;</li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modal-wargaming" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-wargaming')">&times;</span>
+            <ul>
+                <li>Manual Testing:</li>
+                <ul>
+                    <li>Manual testing on Mobile (IOS, Android), WeB and desktop Clients.</li>
+                    <li>API testing</li>
+                    <li>Data-base testing;</li>
+                    <li>Preparation and maintenance of project documentation (Test suit forming, Test Cases, Bug Report, Checklist etc);</li>
+                    <li>Demo Sessions with a Customers;</li>
+                    <li>Automation. Simple scripts on Python;</li>
+                </ul>
+        </div>
+    </div>
+  
+    <section id="skills-expertise" class="section-block" data-aos="fade-up">
+        <h2>Skills and Expertise</h2>
+        <div class="skills-container">
+
+            <!-- Блок с техническими навыками (Hard Skills) -->
+            <div class="hard-skills">
+                <h3>Technical Skills (Hard Skills)</h3>
+
+                <canvas id="skillsChart" width="400" height="400"></canvas>
+
+                <!-- Можно дополнительно пояснить навыки -->
+                <div class="skills-description">
+                    <ul>
+                        <li>Manual Testing</li>
+                        <li>Automation Testing (Selenium, Cypress)</li>
+                        <li>API Testing (Postman, RestAssured)</li>
+                        <li>Test Leadership & Management</li>
+                        <li>Version Control (Git, GitHub)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Блок с личностными качествами (Soft Skills) -->
+            <section class="soft-skills">
+                <div class="column">
+                    <div class="skill-block">
+                        <i class="fas fa-users"></i> Team Collaboration
+                    </div>                    
+                    <div class="skill-block">
+                        <i class="fas fa-lightbulb"></i> Problem Solving
+                    </div>
+                    <div class="skill-block">
+                        <i class="fas fa-comments"></i> Communication Skills
+                    </div>
+                    <div class="skill-block">
+                        <i class="fas fa-bullseye"></i> Goal-Oriented
+                    </div>
+                    <div class="skill-block">
+                        <i class="fas fa-clock"></i> Time Management
+                    </div>
+                    <div class="skill-block">
+                        <i class="fas fa-sync-alt"></i> Adaptability
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="skill-block">
+                        <i class="fas fa-heart"></i> Emotional Intelligence
+                    </div>
+                    <div class="skill-block">
+                        <i class="fas fa-user-tie"></i> Leadership
+                    </div>
+                    <div class="skill-block">
+                        <i class="fas fa-brain"></i> Creativity
+                    </div>
+                    <div class="skill-block">
+                        <i class="fas fa-handshake"></i> Conflict Resolution
+                    </div>
+                    <div class="skill-block">
+                        <i class="fas fa-hands-helping"></i> Empathy
+                    </div>
+                    <div class="skill-block">
+                        <i class="fas fa-users"></i> Interpersonal Skills
+                    </div>
+                </div>
+            </section>
+            
+
+            <div id="skills-description" style="display: none;">
+                <h3>Skill Details</h3>
+                <p id="skill-detail-text">Click on a section of the chart to see more details about that skill.</p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <a href="https://www.instagram.com/mr_morou/?igsh=MWthdW8yZHQ1N3pnag%3D%3D" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/kim-pykhov-0a2aa9196/" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/kimpykhov/saucedemo" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../../public/js/chart.js"></script>
+    <script src="../../public/js/modal.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+
+</html>

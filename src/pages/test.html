@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim Pykhov Web-Page</title>
+    <link rel="stylesheet" href="../../public/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header id="header">
+        <nav class="navigation_wrapper">
+            <h2>
+                <a href="../pages/index.html">Home</a>
+                <a href="../pages/game.html">Game</a>
+                <a href="../pages/blog.html">Blog</a>
+            </h2>
+        </nav>
+        <div id="personalInfo">
+            <h1>Kim Pykhov Web-Page</h1>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/mr_morou/?igsh=MWthdW8yZHQ1N3pnag%3D%3D" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/kim-pykhov-0a2aa9196/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/kimpykhov/saucedemo" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </header>
+
+    <button id="openModalBtn">Открыть модальное окно</button>
+
+<!-- Само модальное окно -->
+<div id="myModal" class="modal">
+  <!-- Контент модального окна -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Модальное окно</h2>
+    <p>Это пример модального окна.</p>
+  </div>
+</div>
+
+
+
+    <div class="theme-switcher">
+        <label for="theme-toggle">Светлая/Темная тема</label>
+        <input type="checkbox" id="theme-toggle">
+    </div>
+
+    <section class="experience-block">
+        <h2>Пример контента</h2>
+        <p>Это демонстрация переключателя тем.</p>
+    </section>
+
+
+    <script src="../../public/js/switcher.js"></script> <!-- Подключите ваш JavaScript -->
+    
+<script src="../../public/js/modal.js"></script>    
+
+</body>
+</html>
