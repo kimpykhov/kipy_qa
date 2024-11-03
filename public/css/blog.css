@@ -1,18 +1,13 @@
 .blog {
     display: flex;
     flex-direction: row;
-    align-items: center; /* Прижмем к началу для вертикального выравнивания */
-    gap: 20px; /* Добавляет отступ между блоками */
-    max-width: 1200px;
-    background-color: #d3d3d3;
+    height: 100%;
 }
 
 .blog-list {
-    display: flex;
-    flex: 2;
+    flex: 0 0 20%;
 }
 
 .blog-content {
-    display: flex;
-    flex: 2;
+    flex: 0 0 80%;
 }
