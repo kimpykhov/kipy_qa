@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kim Pykhov Web-Page</title>
     <link rel="stylesheet" href="../../public/css/style.css">
+    <link rel="stylesheet" href="../../public/css/night-vision.css">
+    <link rel="stylesheet" href="../../public/css/blog.css">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -29,18 +31,23 @@
             <a href="https://www.instagram.com/mr_morou/?igsh=MWthdW8yZHQ1N3pnag%3D%3D" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://www.linkedin.com/in/kim-pykhov-0a2aa9196/" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/kimpykhov/saucedemo" target="_blank"><i class="fab fa-github"></i></a>
+            <button onclick="toggleDarkMode(this.classList.toggle('dark'))">
+                Dark Theme
+            </button>
         </div>
     </header>
 
     <hr>
 
-    <div class="section-block" id="maintenance">
-        <h1><p>Oops. Out of coffee. Didn't have time to write the code and upload it here.</p></h1>
-
-        <div class="container" id="bodyContainer">
-            <img src="../../public/images/under_work.png" alt="Page is under development, please turn back later" class="hover-picture-effect">
+    <div class="blog" id="blog">  
+        <div class="blog-list">
+            Mock
         </div>
+        <div class="blog-content">
+            Content Mock
+        </div>      
     </div>
+
     <hr>    
 
     <!-- Footer section -->
@@ -51,6 +58,6 @@
             <a href="https://github.com/kimpykhov/saucedemo" target="_blank"><i class="fab fa-github"></i></a>
         </div>    
     </footer>
-
+    <script src="../../public/js/night_vision.js"></script>
 </body>
 </html>
