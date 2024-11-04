@@ -11,3 +11,28 @@
 .blog-content {
     flex: 0 0 80%;
 }
+
+.blog-structure {
+    display: flex;
+    align-items: center;
+}
+
+.grid-container-blog {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.image-blog {
+    max-width: 200px; /* Максимальная ширина изображения */
+    height: auto;
+}
+
+.blog-picture{
+    flex: 1;
+}
+
+.blog-text {
+    flex: 2;
+    text-align: left;
+}

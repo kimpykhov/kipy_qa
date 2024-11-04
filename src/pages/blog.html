@@ -45,6 +45,10 @@
                 <h4>Theme</h4>
                 <div class="filtering">
                     <div>
+                        <input type="checkbox" id="general" name="theme" value="general">
+                        <label for="general">General</label>
+                    </div>
+                    <div>
                         <input type="checkbox" id="api" name="theme" value="api">
                         <label for="api">API</label>
                     </div>
@@ -65,13 +69,37 @@
 
             <div class="blog-content">
                 <h4>Records</h4>
-                <div class="content api">api</div>
+                <div class="blog-structure">
+                    <div class="grid-container-blog">
+                        <div class="content general">
+                            <div class="blog-picture">
+                                <img src="../../public/images/blog_general.PNG" alt="general_info" class="image-blog">
+                            </div>
+                            <div class="blog-text">
+                                <p>So, what can you find on this page?
+
+                                    A few technical posts — just some general information to refresh your memory on key topics.
+                                    And a bit of the interesting things I encounter in everyday life.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <hr>
-                <div class="content manual">manual</div>
+                <div class="blog-structure">
+                    <div class="content api">api</div>
+                </div>
                 <hr>
+                <div class="blog-structure">
+                    <div class="content manual">manual</div>
+                </div>
+                <hr>
+                <div class="blog-structure">
                 <div class="content automation">automation</div>
+                </div>
                 <hr>
-                <div class="content leadership">leadership</div>
+                <div class="blog-structure">
+                    <div class="content leadership">leadership</div>
+                </div>
             </div>
         </div>      
     </div>

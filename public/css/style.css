@@ -192,7 +192,6 @@ nav a:hover::after {
 
 .about-me {
   max-width: 1200px;
-  /* margin: 0 auto; */
   margin: 40px auto;
   padding: 20px;
 }
@@ -243,7 +242,6 @@ nav a:hover::after {
   padding: 20px;
   border-radius: 8px;
   max-width: 1200px;
-  /* margin: 0 auto; */
   margin: 40px auto;
 }
 
