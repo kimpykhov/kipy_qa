@@ -5,8 +5,8 @@ body, html {
 }
 
 .dark-theme {
-  background-color: #333333; /* Цвет фона для темной темы */
-  color: #ffffff; /* Цвет текста для темной темы */
+  background-color: #333333;
+  color: #ffffff;
 }
 
 .theme-switcher {
@@ -19,34 +19,34 @@ body, html {
 
 header {
   display: flex;
-  justify-content: space-between; /* Выравниваем содержимое по краям */
-  align-items: center; /* Центрируем по вертикали */
+  justify-content: space-between;
+  align-items: center;
   padding: 20px;
-  background-color: #d3d3d3; /* Фон аналогичный другим секциям */
-  max-width: 1200px; /* Ограничиваем ширину хедера */
-  margin: 20px auto; /* Центрируем хедер и добавляем отступы сверху и снизу */
-  border-radius: 8px; /* Скругляем углы */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Добавляем легкую тень */
+  background-color: #d3d3d3;
+  max-width: 1200px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .navigation_wrapper {
   display: flex;
-  flex: 1; /* Занимаем доступное пространство слева */
+  flex: 1;
 }
 
 .navigation_wrapper h2 {
   margin: 0;
   display: flex;
-  gap: 20px; /* Расстояние между ссылками */
+  gap: 20px;
 }
 
 #personalInfo {
-  flex: 1; /* Занимаем доступное пространство */
-  text-align: center; /* Центрируем текст */
+  flex: 1;
+  text-align: center;
 }
 
 #personalInfo h1 {
-  font-size: 2rem; /* Уменьшаем шрифт для заголовка */
+  font-size: 2rem;
   margin: 0;
 }
 
@@ -56,9 +56,9 @@ header h2 {
 
 .social-icons {
   display: flex;
-  flex: 1; /* Занимаем доступное пространство справа */
-  justify-content: flex-end; /* Выравниваем по правому краю */
-  gap: 15px; /* Уменьшаем расстояние между иконками */
+  flex: 1;
+  justify-content: flex-end;
+  gap: 15px;
 }
 
 .social-icons a {
@@ -74,7 +74,7 @@ header h2 {
 
 nav {
   display: flex;
-  gap: 20px; /* Уменьшаем расстояние между ссылками */
+  gap: 20px;
 }
 
 nav a {
@@ -105,7 +105,7 @@ nav a:hover::before {
 }
 
 nav a:hover {
-  color: #ff6347; /* Изменение цвета текста при наведении */
+  color: #ff6347;
 }
 
 nav a::after {
@@ -126,12 +126,12 @@ nav a:hover::after {
 }
 
 .section-block {
-  background-color: #d3d3d3; /* светло-серый фон, можно изменить на другой цвет */
+  background-color: #d3d3d3;
   padding: 20px;
-  border-radius: 8px; /* скругленные края */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* легкая тень */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   max-width: 1200px;
-  margin: 20px auto; /* отступ сверху и снизу, центрирование по горизонтали */
+  margin: 20px auto;
 }
 
 .container#personalInfo {
@@ -148,7 +148,7 @@ nav a:hover::after {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 2fr; /* Колонки для изображения и текста */
+  grid-template-columns: 1fr 2fr;
   column-gap: 20px;
 }
 
@@ -200,14 +200,14 @@ nav a:hover::after {
   text-align: center;
   font-size: 28px;
   font-weight: bold;
-  margin-bottom: 20px; /* Отступ снизу заголовка */
+  margin-bottom: 20px;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Две колонки: для картинки и текста */
-  gap: 20px; /* Отступ между колонками */
-  align-items: center; /* Вертикальное выравнивание по центру */
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
 }
 
 .image-container {
@@ -221,19 +221,19 @@ nav a:hover::after {
 }
 
 .text-content {
-  text-align: left; /* Выравнивание текста по левому краю */
+  text-align: left;
   padding: 10px;
 }
 
-/* Для мобильных устройств */
+/* movile view */
 @media (max-width: 768px) {
   .grid-container {
-    grid-template-columns: 1fr; /* Переключаем на одну колонку для маленьких экранов */
+    grid-template-columns: 1fr;
     text-align: center;
   }
 
   .text-content {
-    text-align: center; /* Центрируем текст для мобильных устройств */
+    text-align: center;
   }
 }
 
@@ -247,12 +247,12 @@ nav a:hover::after {
 
 .text-section-title {
   text-align: center;
-  margin-bottom: 20px; /* Добавим отступ под заголовком */
+  margin-bottom: 20px;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Три колонки с равной шириной */
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
   max-width: 900px;
   margin: 0 auto;
@@ -338,7 +338,7 @@ nav a:hover::after {
 
 @media (max-width: 768px) {
   .grid {
-    grid-template-columns: 1fr; /* Одна колонка на маленьких экранах */
+    grid-template-columns: 1fr;
   }
 
   .box {
@@ -347,26 +347,26 @@ nav a:hover::after {
 }
 
 #skills-expertise {
-  margin: 50px auto; /* Используем auto для центрирования по горизонтали */
+  margin: 50px auto;
   text-align: center;
-  max-width: 1200px; /* Ограничиваем максимальную ширину */
+  max-width: 1200px;
 }
 
 .skills-container {
   display: flex;
-  justify-content: center; /* Центрируем блок скиллов */
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  margin: 0 auto; /* Центрируем контейнер на странице */
+  margin: 0 auto;
 }
 
 .hard-skills, .soft-skills {
-  flex: 1 1 45%; /* Равное распределение ширины для каждого блока навыков */
+  flex: 1 1 45%;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
   background-color: #f9f9f9;
-  max-width: 500px; /* Ограничиваем максимальную ширину для каждой колонки */
+  max-width: 500px;
 }
 
 .hard-skills h3, .soft-skills h3 {
@@ -386,20 +386,20 @@ nav a:hover::after {
 
 .soft-skills {
   display: flex;
-  justify-content: center; /* Центрируем элементы внутри блока soft-skills */
+  justify-content: center;
   gap: 20px;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Изменено на выравнивание по левому краю */
+  align-items: flex-start;
 }
 
 .skill-block {
   display: flex;
   align-items: center;
-  justify-content: center; /* Центрируем текст и иконку в блоке */
+  justify-content: center;
   margin-bottom: 15px;
   font-size: 20px;
 }
@@ -441,21 +441,21 @@ canvas {
 }
 
 footer {
-  height: 20px; /* Высота футера */
+  height: 20px;
   display: flex;
-  justify-content: center; /* Горизонтальное выравнивание по центру */
-  align-items: center; /* Вертикальное выравнивание по центру */
+  justify-content: center;
+  align-items: center;
 }
 
 .footer a {
-  color: #000; /* Цвет иконок */
-  margin: 0 15px; /* Отступ между иконками */
-  font-size: 30px; /* Размер иконок */
+  color: #000;
+  margin: 0 15px;
+  font-size: 30px;
   text-decoration: none;
 }
 
 .footer a:hover {
-  color: #ff6347; /* Цвет при наведении */
+  color: #ff6347;
 }
 
 /*for switcher*/
@@ -473,9 +473,9 @@ body {
 }
 
 .hover-picture-effect {
-  transition: filter 0.3s ease; /* Плавный переход */
+  transition: filter 0.3s ease;
 }
 
 .hover-picture-effect:hover {
-  filter: grayscale(100%); /* Делает изображение черно-белым при наведении */
+  filter: grayscale(100%);
 }
